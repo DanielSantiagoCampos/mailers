@@ -8,6 +8,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5'
 gem "haml-rails", "~> 2.0"
+gem 'bootsnap', require: false
 
 group :development, :test do
 end
